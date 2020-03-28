@@ -21,7 +21,7 @@ This will install the following modules:
 * `selenium==3.141.0`
 * `openpyxl==2.6.1`
 * `PyPDF2==1.26.0`
-* `python-docx==0.8.10` (install python-docx, not docx)
+* `python-docx==0.8.10`
 * `imapclient==2.1.0`
 * `pyzmail36==1.0.4`
 * `twilio`
@@ -29,9 +29,5 @@ This will install the following modules:
 * `ezsheets`
 * `pyinputplus`
 * `pillow==6.0.0`
-* `pyobjc-framework-Quartz==5.2` (on macOS only)
-* `pyobjc-core==5.2` (on macOS only)
-* `pyobjc==5.2` (on macOS only)
-* `python3-xlib==0.15` (on Linux only)
 * `pyautogui`
 
