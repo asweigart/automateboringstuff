@@ -35,7 +35,7 @@ setup(
         'ezgmail',
         'ezsheets',
         'pyinputplus',
-        'pillow==6.0.0',
+        'pillow==7.1.2',
         'pyautogui',
     ],
     keywords="automate boring stuff python",
