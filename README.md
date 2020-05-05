@@ -28,6 +28,6 @@ This will install the following modules:
 * `ezgmail`
 * `ezsheets`
 * `pyinputplus`
-* `pillow==6.0.0`
+* `pillow==7.1.2`
 * `pyautogui`
 
