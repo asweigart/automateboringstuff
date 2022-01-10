@@ -23,7 +23,6 @@ This will install the following modules:
 * `PyPDF2==1.26.0`
 * `python-docx==0.8.10`
 * `imapclient==2.1.0`
-* `pyzmail36==1.0.4`
 * `twilio`
 * `ezgmail`
 * `ezsheets`
@@ -31,3 +30,20 @@ This will install the following modules:
 * `pillow==6.0.0`
 * `pyautogui`
 
+# Note About Pyzmail36
+
+This module doesn't install `pyzmail36`. The latest version of Python's `setuptools` module has deprecated some functionality, and trying to install `pyzmail36` with it results in a "use_2to3 is invalid" error message.
+
+To install `pyzmail36`, you need to first install version 58.0.0 of `setuptools` with the following command:
+
+    pip install --user setuptools==58.0.0
+
+Then you can install `pyzmail36`:
+
+    pip install --user pyzmail36==1.0.4
+
+Then you can update `setuptools` to the latest version again:
+
+    pip install --user -U setuptools
+
+I'm currently working with the maintainer of `pyzmail36` to have this issue fixed.
