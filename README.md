@@ -1,4 +1,7 @@
-# automateboringstuff
+automateboringstuff
+===================
+
+
 This package installs the modules used in "Automate the Boring Stuff with Python", 2nd Edition.
 
 This book, along with all of Al Sweigart's programming books, is freely available under a Creative Commons license at https://inventwithpython.com
@@ -30,7 +33,8 @@ This will install the following modules:
 * `pillow==6.0.0`
 * `pyautogui`
 
-# Note About Pyzmail36
+Note About Pyzmail36
+===================
 
 This module doesn't install `pyzmail36`. The latest version of Python's `setuptools` module has deprecated some functionality, and trying to install `pyzmail36` with it results in a "use_2to3 is invalid" error message.
 
